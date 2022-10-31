@@ -1,0 +1,14 @@
+# learning-js:
+#   filter: rjsmin
+#   output: ckanext-learning/%(version)s-learning.js
+#   contents:
+#     - js/learning.js
+#   extra:
+#     preload:
+#       - base/main
+
+# learning-css:
+#   filter: cssrewrite
+#   output: ckanext-learning/%(version)s-learning.css
+#   contents:
+#     - css/learning.css
